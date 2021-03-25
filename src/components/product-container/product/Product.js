@@ -24,7 +24,7 @@ class Product extends React.Component {
             <Col xs={3} data-id={this.props.id} className={"mb-3"}>
                 <Card className={"card-size"}>
                     <Card.Body>
-                        <Card.Img variant="top" src={this.props.image} />
+                        <Card.Img variant="top" src={this.props.image} height={"300px"} />
                         <Card.Title>{this.props.name}</Card.Title>
                         <Card.Subtitle>{this.props.price}</Card.Subtitle>
                         <Card.Text>
